@@ -1,0 +1,51 @@
+p,
+a{
+    color:green;
+}
+li{
+    list-style-type: square;
+}
+<!--.special{
+    color: hotpink;
+    font-weight: bold;
+}-->
+span.special,li.special{
+    color: orangered;
+    font-weight: bold;
+}
+li em{
+    color: palegreen;
+}
+h1+p{
+    color: peru;
+}
+a:hover{
+    color: purple;
+    text-decoration: none;
+}
+body h1+p .special{
+    color: yellowgreen;
+    background-color: aqua;
+    padding: 5px;
+}
+#heading{
+    color: blanchedalmond;
+    background-color: black;
+}
+p#one{
+    color: blueviolet;
+}
+li[class]{
+    color: cornflowerblue;
+    font-size: 300%;
+}
+li[class="a"]{
+    color: black;
+}
+li[class~="a"]{
+    color: coral;
+}
+
+*{
+    list-style-type: none;
+}
