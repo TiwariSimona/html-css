@@ -1,1 +1,57 @@
-.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">">
+    <title>colors in css</title>
+    <style>
+       <!-- h1{
+            color: rgb(29, 169, 194);
+            background-color: brown;
+        }-->
+        .background{
+            background-image: url("img.jpg");
+            background-repeat: no-repeat;
+            background-size: 400px;
+            background-position: center;
+            background-attachment: scroll;
+
+            height: 1000px;
+            width: 1000px;
+        }
+        p{
+            color: rgb(185, 103, 103);
+        }
+        h1{
+            font-size: 50px;
+            font-family: ''Dancing Script', 'Gill Sans MT', Calibri, 'Trebuchet MS'
+            'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: italic;
+            font-weight: 200;
+            text-decoration: overline;
+            text-transform: uppercase;
+            text-shadow: 3px 3px 2px black;
+            text-align: center;
+            
+        }
+        p{
+            line-height: 3;
+            line-height: 50;
+            font-weight: bold;
+            text-indent: 1rem;
+            word-spacing: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+    <h1>This is a heading</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, aperiam? Omnis eos quasi, perspiciatis, vero reprehenderit voluptatibus eum ipsum neque numquam autem corrupti ratione illum rem reiciendis a quia placeat libero, beatae repudiandae aliquid? Praesentium minima aperiam ratione placeat blanditiis exercitationem odit ullam a! Laboriosam corporis iusto facere iure voluptate.</p>
+</div>
+    <p>This is a paragraph</p>  
+</body>
+</html>
