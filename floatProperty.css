@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float Property</title>
+    <style>
+        body{
+            margin: 0a auto;
+            max-width: 900px;
+            width: 70%;
+        }
+        #box{
+            float: right;
+            margin: 15px;
+            width: 150px;
+            height: 150px;
+            border-radius: 5px;
+            background-color: lightblue;
+            padding: 1em;
+        }
+        .special{
+            background-color: lightblue;
+            padding: 15px;
+            color: white;
+        }
+        .clear{
+            clear: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Float Property</h1>
+    <img id="box" src="../photo.jpg" alt="">
+    <h1 class="special">Resume</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo consectetur nam voluptas dolorum reiciendis, enim magni minus qui in, id rem tempora odio incidunt ut ab adipisci nostrum maxime porro.</p>
+    <p class="clear">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus voluptates architecto eligendi earum facilis tempora, eum sit corporis illo quos officia blanditiis voluptatum, minima itaque dolorum doloribus nam explicabo expedita?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis ullam, nesciunt libero exercitationem, molestiae suscipit aliquid atque voluptatem error, odio porro necessitatibus velit repudiandae assumenda cumque dolore rerum. Eligendi, omnis!</p>
+</body>
+</html>
